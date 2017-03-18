@@ -4,7 +4,7 @@
 
     <div class="container">
     <div class="row">
-        <h1>Add One Here!</h1>
+        <h1>Add One Here</h1>
         <asp:TextBox ID ="inputBox" runat="server"></asp:TextBox>
         <asp:Button ID ="computate" text="calculate" runat="server"/>
         <asp:Label ID="result" Text="result" runat="server"></asp:Label>
