@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddOne", "AddOne\AddOne.csproj", "{EFA05230-BF5C-43BC-A81D-9C1A2B664BD0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddOneToAnother", "AddOneToAnother\AddOneToAnother.csproj", "{A0E8E78E-2091-4CD3-8670-D5D5EA2E7353}"
+	ProjectSection(ProjectDependencies) = postProject
+		{EFA05230-BF5C-43BC-A81D-9C1A2B664BD0} = {EFA05230-BF5C-43BC-A81D-9C1A2B664BD0}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EFA05230-BF5C-43BC-A81D-9C1A2B664BD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFA05230-BF5C-43BC-A81D-9C1A2B664BD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFA05230-BF5C-43BC-A81D-9C1A2B664BD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFA05230-BF5C-43BC-A81D-9C1A2B664BD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0E8E78E-2091-4CD3-8670-D5D5EA2E7353}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0E8E78E-2091-4CD3-8670-D5D5EA2E7353}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0E8E78E-2091-4CD3-8670-D5D5EA2E7353}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0E8E78E-2091-4CD3-8670-D5D5EA2E7353}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
